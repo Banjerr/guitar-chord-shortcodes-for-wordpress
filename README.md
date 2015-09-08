@@ -28,5 +28,7 @@ If a string is not to be played, use an "x" for that placement and fingering.
 Here are some more examples:
 
 [guitar-chord name="C" type="Major" placement="x,3,2,0,1,0" fingering="x,3,2,0,1,0"]
+
 [guitar-chord name="A" type="m" placement="x,0,2,2,1,0" fingering="x,0,2,3,1,0"]
+
 [guitar-chord name="A" type="m" placement="5,7,7,5,5,5" fingering="1,3,4,1,1,1"]
