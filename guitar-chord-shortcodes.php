@@ -17,7 +17,10 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-include 'guitar-chords-shortcode-builder.php';
+add_action( 'wp_enqueue_scripts', 'guitar_chord_shortcodes_enqueue_style', 2 );
+function guitar_chord_shortcodes_enqueue_style(){
+    wp_enqueue_style( 'guitar_chord_css', plugins_url() . '/guitar-chord-shortcodes-for-wordpress/css/style.css'); 
+}
 
 class Guitar_Chords {
 	public function the_chord($atts, $name, $type, $fingering = array(2,1,0,0,0,3), $placement = array(3,2,0,0,0,3)){
