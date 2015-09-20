@@ -19,7 +19,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 add_action( 'wp_enqueue_scripts', 'guitar_chord_shortcodes_enqueue_style', 2 );
 function guitar_chord_shortcodes_enqueue_style(){
-    wp_enqueue_style( 'guitar_chord_css', plugins_url() . '/guitar-chord-shortcodes-for-wordpress/css/style.css'); 
+    wp_enqueue_style( 'guitar_chord_css', plugins_url('css/style.css', __FILE__); 
 }
 
 class Guitar_Chords {
