@@ -39,7 +39,7 @@ Here are some more examples:
 
 1. Copy the plugin folder into your WordPress plugin directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Use the shortcode [guitar-chord] with the appropriate parameters
+1. Use the shortcode [guitar-chord] OR [banjo-chord] with the appropriate parameters
 
 == Frequently Asked Questions ==
 
@@ -50,6 +50,10 @@ Double check every parameter is typed and speelled correctly.  Also check that t
 == Screenshots ==
 
 1. This screen shot displays what the guitar chord diagrams will look like in a post or page.
+
+# this is an example of the banjo-chord shortcode
+
+![](https://dl.dropboxusercontent.com/s/ijrnb5apdmol9zv/2727B926-70AE-431F-9E08-F60B971A683C-22028-0000253AD2CD9977.gif?dl=0)
 
 == Changelog ==
 

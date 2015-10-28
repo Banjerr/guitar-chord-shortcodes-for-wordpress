@@ -1,5 +1,5 @@
 /* CHORD SHORTCODES */
-.guitar-chord{
+.guitar-chord, .banjo-chord {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -7,10 +7,10 @@
 	display: inline-block;
 	vertical-align: top;
 }
-.guitar-chord thead{
+.guitar-chord thead, .banjo-chord thead {
 	text-align: center;
 }
-.guitar-chord td{
+.guitar-chord td, .banjo-chord td {
 	background:#fff !important;
 	border:1px solid lightgray;
 	height: 30px;
@@ -19,25 +19,25 @@
 	vertical-align: middle;
 	text-align: center;
 }
-.guitar-chord td span{
+.guitar-chord td span, .banjo-chord td span {
 	position: relative;
 	right: 11px;
 	top: 0px;
 	background: #fff;
 }
-.guitar-chord tr:first-of-type{
+.guitar-chord tr:first-of-type, .banjo-chord tr:first-of-type {
 	font-weight:bold;
 }
-.guitar-chord tr td:last-of-type, .guitar-chord tr td:first-of-type{
+.guitar-chord tr td:last-of-type, .guitar-chord tr td:first-of-type, .banjo-chord tr td:last-of-type, .banjo-chord tr td:first-of-type {
 	border:0;
 }
-.guitar-chord tr td:first-of-type{
+.guitar-chord tr td:first-of-type, .banjo-chord tr td:first-of-type {
 	border-left: 0;
 }
-.guitar-chord tr:first-of-type td{
+.guitar-chord tr:first-of-type td, .banjo-chord tr:first-of-type td {
 	border:0;
 }
-.guitar-chord tr td:first-of-type span{
+.guitar-chord tr td:first-of-type span, .banjo-chord tr td:first-of-type {
 	right:10px;
 }
 .guitar-chord-nut{
